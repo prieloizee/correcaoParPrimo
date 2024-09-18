@@ -6,7 +6,6 @@ module.exports = class controllerNumbers{
             return res.status(400).json({message:"Não é um número!!!"});
         }
 
-
         if(numero % 2 == 0){
             return res.status(200).json({message:"Número Par!!"});
         }
